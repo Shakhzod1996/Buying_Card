@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    background-image: url(/imgs/Header\ Background.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.head ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head ul li a {
+    color: #fff;
+    transition: .4s;
+}
+
+.head ul li a:hover {
+    color: aqua;
+}
+
+hr {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: rgb(170, 170, 170);
+}
+
+.generic {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.music {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.album {
+    margin-bottom: 70px;
+    width: 100%;
+    transition: 1s ease;
+}
+
+.album h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.cost {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.add-t-cart {
+    border: none;
+    padding: 15px 35px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(62, 210, 230), rgb(5, 134, 151));
+    color: #fff;
+    border-radius: 5px;
+    transition: linear-gradient .4s ease;
+}
+
+.add-t-cart:hover {
+    background-image: linear-gradient(to left,  rgb(62, 210, 230), rgb(5, 134, 151));
+}
+
+.cart {
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart h1 {
+    text-align: center;
+}
+
+table tr {
+    text-align: center;
+}
+
+table tr th {
+    border: none;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 33%;
+    color: rgb(5, 134, 151);
+}
+
+table tr td {
+    border: none;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+    border-collapse: collapse;
+    padding-top: 10px;
+}
+
+.img-width {
+    display: flex;
+    align-items: center;
+}
+
+.img-width .add-t-cart {
+    display: none;
+}
+
+.img-width img {
+    width: 50px;
+}
+
+.total {
+    display: flex;
+    justify-content: right;
+}
+
+.total-price {
+    margin-left: 10px;
+}
+
+.purchase {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.purchase button {
+    padding: 15px 40px;
+    background-color: rgb(62, 210, 230);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+    transform: scale(1);
+}
+
+.purchase button:hover {
+    transform: scale(1.02);
+    background-color: rgb(5, 134, 151);
+}
+
+.td3-hide {
+    display: none;
+}
+
+
